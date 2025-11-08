@@ -1,0 +1,266 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.headerngani {
+  background-color: #000000;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.site-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 190px;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(48, 44, 44);
+  border-radius: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.ok {
+  color: aliceblue;
+}
+
+.nav a:hover {
+    color: darkorange;
+}
+
+
+.pictures {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 50px;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black ;
+}
+
+.pic {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.363);
+    width: 200px;
+    padding: 1rem;
+    margin: 5px;
+    color: aliceblue;
+    overflow: hidden; 
+    transition: transform 0.3s ease;
+}
+
+.pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.pic:hover {
+    transform: translateY(-5px);
+}
+
+.pic:hover img {
+    transform: scale(1.1);
+    filter: brightness(85%);
+}
+
+.nav2 {
+    background-color:  rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav2 li {
+    display: inline-block;
+    background-color: rgb(19, 18, 18);
+    width: 17   0px;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    transition: color 0.3s ease;
+}
+
+.nav2 a:hover {
+    color: darkorange;
+}
+
+@media (max-width: 700px) {
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .headerngani {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+.More {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.Morepictures {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 50px;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black ;
+}
+
+.welcome-section{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 50px;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black ;
+}
+
+.intro-image {
+    background: rgb(0, 0, 0);
+    border-radius: 300px;
+    box-shadow: 0 0px 20px rgba(255, 255, 255, 0.363);
+    width: 300px;
+    padding: 1rem;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.intro-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
+
+.welcome {
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.pictures1 {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.choose-person {
+  color: aliceblue;
+  background-color: #000000;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+}
+
+.ryza {
+  display: grid;
+  justify-content: center;
+  color: aliceblue;
+  background-color: #000000;
+}
+
+footer {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.video {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 50px;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black ;
+}
+
+.video-container {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.363);
+    width: 640;
+    padding: 1rem;
+    margin: 5px;
+    color: aliceblue;
+    overflow: hidden; 
+}
+
+.video-container img {
+    width: 640;
+    height: 360;
+    border-radius: 5px;
+}
+
+.text {
+  background-color: #000000;
+  color: aliceblue;
+  display: flex;
+}
+
+.text-container {
+  margin: 0 33px;
+}
